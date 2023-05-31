@@ -7,23 +7,23 @@ event_type: mqtt
 mqtt_topic_format: zigbee2mqtt/+/action
 buttons:
   - actions:
-      - title: Click
+      - title: click
         conditions:
           - key: payload
             value: single
-      - title: Click 2x
+      - title: click 2x
         conditions:
           - key: payload
             value: double
-      - title: Hold
+      - title: hold
         conditions:
           - key: payload
             value: hold
-      - title: Rotate Right
+      - title: rotate right
         conditions:
           - key: payload
             value: rotate_right
-      - title: Rotate Left
+      - title: rotate left
         conditions:
           - key: payload
             value: rotate_left
